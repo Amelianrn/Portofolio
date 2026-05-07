@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amelia Nur'aini — Portofolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-brand">Amelia Nur'aini</a>
+    <a href="#home">Home</a>
+    <a href="#experience">Experience</a>
+    <a href="#volunteer">Volunteer & Event</a>
+    <div class="nav-dropdown">
+      <a href="#projects">Project</a>
+      <div class="nav-dropdown-menu">
+        <a href="#projects" onclick="showProjTab('pemrograman')">Pemrograman</a>
+        <a href="#projects" onclick="showProjTab('mapping')">Mapping</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Portofolio — GIS & Spatial Technology</p>
+      <h1 class="hero-name">Amelia Nur'aini</h1>
+      <p class="hero-desc">
+        A Geographic Information Systems student at <strong>Universitas Gadjah Mada</strong> with a deep passion for
+        spatial technology, data analysis, and building meaningful tools from geospatial data.
+      </p>
+      <div class="hero-tags">
+        <span class="tag">GIS Specialist</span>
+        <span class="tag">Web GIS Developer</span>
+      </div>
+      <div class="contact-me">
+        <span style="font-size:14px; font-weight:500;">Contact Me:</span>
+        <a href="mailto:amelianuraini@mail.ugm.ac.id">
+          <i class="fa-solid fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/Amelianrn" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/amelia-nur-aini-5019532b7" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+
+      <a href="#about" class="hero-cta">Explore My Work ↓</a>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hc-label">Education</div>
+        <div class="hc-value">Universitas Gadjah Mada</div>
+        <div class="hc-sub">Geographic Information Systems · 2023 – Present</div>
+      </div>
+      <div class="hero-card">
+        <div class="hc-label">Location</div>
+        <div class="hc-value">Bantul, Yogyakarta</div>
+        <div class="hc-sub">amelianuraini@mail.ugm.ac.id</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-sidebar">
+      <p class="section-label">About Me</p>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="profile-photo">
+        <img src="images/profile.png" alt="Profile Photo">
+      </div>
+    </div>
+
+    <div class="about-content">
+      <p>
+        Hi! I'm <strong>Amelia Nur'aini</strong>, a Geographic Information Systems student at Universitas Gadjah Mada
+        with a strong interest in spatial analysis, mapping, and geospatial technology.
+      </p>
+
+      <p>
+        I enjoy exploring how <strong>spatial data can be transformed into meaningful visual information</strong> to
+        support analysis, planning, and decision-making for various environmental and regional issues.
+      </p>
+
+      <p>
+        Throughout my academic journey, I have worked on various GIS-related projects involving cartography, remote
+        sensing, spatial data processing, Web GIS development, and environmental analysis using ArcGIS Pro, QGIS, Google
+        Earth Engine, and Python.
+      </p>
+
+      <p>
+        I am passionate about combining <strong>technical geospatial skills with creativity and problem-solving</strong>
+        while continuously learning and growing through both academic and practical experiences.
+      </p>
+      <div class="skills-section">
+        <h3 class="section-title">Technical Skills</h3>
+
+        <div class="skills-list">
+          <span class="skill-pill">ArcGIS Pro</span>
+          <span class="skill-pill">QGIS</span>
+          <span class="skill-pill">ENVI</span>
+          <span class="skill-pill">Google Earth Engine</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">HTML / CSS</span>
+          <span class="skill-pill">GNSS Survey</span>
+          <span class="skill-pill">Drone Mapping</span>
+          <span class="skill-pill">Story Maps</span>
+          <span class="skill-pill">Web GIS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="exp-header">
+      <p class="section-label">My Journey</p>
+      <h2 class="section-title">Experience</h2>
+    </div>
+
+
+    <!-- Assistant -->
+    <div class="exp-card-v2">
+      <div class="exp-top-row">
+        <div class="exp-img-main">
+          <img src="images/VDS.jpeg" alt="Assistant practicum">
+        </div>
+
+        <div class="exp-content">
+          <h3>Teaching Assistant of Spatial Data Visualization</h3>
+          <div class="exp-org">Sekolah Vokasi UGM — Departemen Teknologi Kebumian</div>
+          <p>
+            Assisted students in transforming spatial data into clear and informative visual outputs, including
+            thematic maps and standard map layouts using ArcGIS Pro and other GIS tools. Supported practical sessions
+            in spatial data visualization using both GIS platforms and Tableau, and evaluated student assignments to
+            provide constructive feedback.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-card-v2">
+      <div class="exp-top-row">
+        <div class="exp-img-main">
+          <img src="images/SDG.jpeg" alt="Assistant practicum">
+        </div>
+
+        <div class="exp-content">
+          <h3>Teaching Assistant of Geospatial Data Science</h3>
+          <div class="exp-org">Sekolah Vokasi UGM — Departemen Teknologi Kebumian</div>
+          <p>
+            Assisted students in processing and analyzing geospatial data using programming-based approaches.
+            Supported practical sessions using Python through Jupyter Notebook and Google Colab, as well as Google
+            Earth Engine for handling and analyzing spatial datasets. Evaluated student assignments and provided
+            feedback to improve understanding and analytical skills.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 1 -->
+    <div class="exp-card-v2">
+      <div class="exp-top-row">
+        <div class="exp-img-main">
+          <img src="images/pln.jpeg" alt="Team PLN">
+        </div>
+
+        <div class="exp-content">
+          <h3>Intern — Substation & Network Maintenance</h3>
+          <div class="exp-org">PT PLN (Persero) UIT JBT HARTRANS 2</div>
+          <p>
+            During my internship, I worked on maintaining substation data and monitoring
+            electrical equipment conditions. I also conducted field visits to understand
+            transmission components and developed a web-based visualization tool
+            for transmission networks, including route filtering and distance analysis.
+          </p>
+        </div>
+      </div>
+
+      <div class="exp-gallery-wide">
+        <div class="gallery-item">
+          <img src="images/pln1.jpeg" alt="">
+          <span>Sertifikasi</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/pln2.jpeg" alt="">
+          <span>GNSS Survey</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/pln3.jpeg" alt="">
+          <span>Drone Operation</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/pln4.jpeg" alt="">
+          <span>Digitization</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 - Magelang -->
+    <div class="exp-card-v2">
+      <div class="exp-top-row">
+        <div class="exp-img-main">
+          <img src="images/PKL2(2).jpg" alt="Team PKL 2">
+        </div>
+
+        <div class="exp-content">
+          <h3>PKL 2 — Data Acquisition & Mapping</h3>
+          <div class="exp-org">Magelang</div>
+          <p>
+            I conducted spatial data collection, including GNSS boundary measurements,
+            land suitability surveys, and population census activities. The project
+            resulted in an interactive story map for visualizing village data and
+            supporting community planning.
+          </p>
+        </div>
+      </div>
+
+      <div class="exp-gallery-wide">
+        <div class="gallery-item">
+          <img src="images/PKL2.jpg" alt="">
+          <span>Sertifikasi</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/PKL2(3).jpg" alt="">
+          <span>GNSS Survey</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/PKL2(4).jpg" alt="">
+          <span>Drone Operation</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/PKL2(5).jpg" alt="">
+          <span>Digitization</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="exp-card-v2">
+      <div class="exp-top-row">
+        <div class="exp-img-main">
+          <img src="images/GSN.jpeg" alt="Geospasial Nusantara">
+        </div>
+
+        <div class="exp-content">
+          <h3>Spatial Data Analyst Intern</h3>
+          <div class="exp-org">PT Geospasial Nusantara</div>
+          <p>
+            Performed building mapping through digitization and developed elevation attributes using
+            Digital Elevation Models (DEM) in several villages in Pati, Pemalang, Banjarnegara, and Sragen
+            Regency.
+            Utilized GNSS for location measurement and supported drone operations for aerial data collection
+            and
+            mapping.
+            Also contributed to basic training on GNSS usage and drone surveying.
+          </p>
+        </div>
+      </div>
+
+      <div class="exp-gallery-wide">
+        <div class="gallery-item">
+          <img src="images/GSN1.jpeg" alt="">
+          <span>Sertifikasi</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/GSN2.jpeg" alt="">
+          <span>GNSS Survey</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/GSN5.png" alt="">
+          <span>Drone Operation</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/GSN4.jpeg" alt="">
+          <span>Digitization</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="exp-card-v2">
+      <div class="exp-top-row">
+        <div class="exp-img-main">
+          <img src="images/PKL1(7).jpeg" alt="PKL 1">
+        </div>
+
+        <div class="exp-content">
+          <h3>PKL 1 — Spatial Data Preparation</h3>
+          <div class="exp-org">Yogyakarta</div>
+          <p>
+            Performed spatial data preparation including collection, digitization, and preprocessing of
+            polygon,
+            line, and point datasets using GIS tools. Ensured data accuracy through integration and
+            validation
+            processes to support reliable spatial analysis. Also developed structured documentation and
+            reports
+            to summarize internship activities and outputs.
+          </p>
+        </div>
+      </div>
+
+      <div class="exp-gallery-wide">
+        <div class="gallery-item">
+          <img src="images/PKL1.jpeg" alt="">
+          <span>Sertifikasi</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/PKL1(4).jpeg" alt="">
+          <span>GNSS Survey</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/PKL1(5).jpeg" alt="">
+          <span>Drone Operation</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/PKL1(6).jpeg" alt="">
+          <span>Digitization</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- VOLUNTEER & EVENT -->
+  <section id="volunteer">
+    <div class="exp-header">
+      <p class="section-label">Community & Leadership</p>
+      <h2 class="section-title">Volunteer & Event</h2>
+    </div>
+
+    <div class="exp-panel active">
+      <!-- VOLUNTEER 1 -->
+      <div class="exp-card-v2">
+        <div class="vol-top-row">
+          <div class="vol-img-placeholder">
+            <img src="images/gmco.JPG" alt="GMCO">
+          </div>
+          <div class="exp-content">
+            <div class="exp-org" style="color: var(--tan); margin-bottom: 8px; font-size: 13px;">Aug 2025 – Nov 2025
+            </div>
+            <h3>Logistics & Consumption Staff</h3>
+            <div class="exp-org">Thematic Concert GMCO — Yogyakarta</div>
+            <ul style="margin-left: 20px; color: var(--mid); font-size: 15px; line-height: 1.8;">
+              <li>Designed and managed a data collection form for lanyard needs of committee members and orchestra
+                players.</li>
+              <li>Procured event equipment including orchestra instruments, cables, and supporting technical gear.</li>
+              <li>Coordinated logistics from rehearsal period through event day.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- VOLUNTEER 2 -->
+      <div class="exp-card-v2">
+        <div class="vol-top-row">
+          <div class="vol-img-placeholder">
+            <img src="images/vocentic.jpeg" alt="VOCENTIC">
+          </div>
+          <div class="exp-content">
+            <div class="exp-org" style="color: var(--tan); margin-bottom: 8px; font-size: 13px;">Jul 2025 – Nov 2025
+            </div>
+            <h3>Logistics & Consumption Staff</h3>
+            <div class="exp-org">VOCENTIC</div>
+            <ul style="margin-left: 20px; color: var(--mid); font-size: 15px; line-height: 1.8;">
+              <li>Managed periodic procurement of meals and refreshments for large-scale committee meetings.</li>
+              <li>Coordinated food and beverage orders covering both committee members and participants.</li>
+              <li>Ensured smooth distribution of consumption supplies throughout event activities.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- VOLUNTEER 3 -->
+      <div class="exp-card-v2">
+        <div class="vol-top-row">
+          <div class="vol-img-placeholder">
+            <img src="images/esport.jpeg" alt="Porsenigama">
+          </div>
+          <div class="exp-content">
+            <div class="exp-org" style="color: var(--tan); margin-bottom: 8px; font-size: 13px;">Oct 2024 – Nov 2024
+            </div>
+            <h3>Liaison Officer Staff — E-Sports Branch</h3>
+            <div class="exp-org">Porsenigama — Yogyakarta</div>
+            <ul style="margin-left: 20px; color: var(--mid); font-size: 15px; line-height: 1.8;">
+              <li>Provided information regarding event schedules, rules, and facilities to participants.</li>
+              <li>Relayed important updates between the organizing committee and participants in both directions.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- VOLUNTEER 4 -->
+      <div class="exp-card-v2">
+        <div class="vol-top-row">
+          <div class="vol-img-placeholder">
+            <img src="images/STARGIS.jpeg" alt="STARGIS">
+          </div>
+          <div class="exp-content">
+            <div class="exp-org" style="color: var(--tan); margin-bottom: 8px; font-size: 13px;">Mar 2024 – Feb 2025
+            </div>
+            <h3>Staff Sosmas</h3>
+            <div class="exp-org">STARGIS</div>
+            <ul style="margin-left: 20px; color: var(--mid); font-size: 15px; line-height: 1.8;">
+              <li>Designed and organized various social activities within the organization.</li>
+              <li>Established and expanded networks with external social organizations.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="proj-header">
+      <p class="section-label">Selected Work</p>
+      <h2 class="section-title">Projects</h2>
+    </div>
+
+    <div class="exp-tabs" style="margin-bottom: 2rem;">
+      <button class="exp-tab active" id="tab-btn-pemrograman" onclick="showProjTab('pemrograman')">Pemrograman</button>
+      <button class="exp-tab" id="tab-btn-mapping" onclick="showProjTab('mapping')">Mapping</button>
+    </div>
+
+    <!-- PEMROGRAMAN -->
+    <div id="proj-pemrograman" class="exp-panel active">
+      <!-- PROJECT 1 -->
+      <div class="exp-card-v2" id="proj-web">
+        <div class="exp-top-row">
+          <div class="vol-img-placeholder">
+            <img src="/images/wonosobo.png" alt="Web GIS">
+          </div>
+          <div class="exp-content">
+            <div class="exp-org" style="color: var(--tan); margin-bottom: 8px; font-size: 13px;">Web GIS</div>
+            <h3>Wonosobo Wonderlands</h3>
+            <p>
+              Wonosobo Wonderlands is an interactive Web GIS platform that visualizes tourist destinations across
+              Wonosobo Regency. It features interactive mapping, geolocation, random destination suggestions, and full
+              CRUD functionality for managing tourism data. Built with Laravel, Leaflet.js, PostGIS, and Bootstrap, the
+              platform also supports basemap switching and real-time spatial digitization.
+            </p>
+            <div class="skills-list" style="margin-top: 15px;">
+              <span class="skill-pill">Web GIS</span>
+              <span class="skill-pill">Leaflet.js</span>
+              <span class="skill-pill">Laravel</span>
+              <span class="skill-pill">PostGIS</span>
+              <span class="skill-pill">GeoJSON</span>
+              <span class="skill-pill">Bootstrap 5</span>
+            </div>
+            <a href="https://github.com/Amelianrn/pgwebl-responsi" class="proj-link" target="_blank">View Project ↗</a>
+          </div>
+        </div>
+        <div class="exp-gallery-wide">
+          <div class="gallery-item">
+            <div class="vol-img-placeholder" style="aspect-ratio: 4/3;"><img src="/images/shuffle.png" alt=""></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder" style="aspect-ratio: 4/3;"><img src="/images/titik.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="exp-card-v2" id="proj-jogjasphere">
+        <div class="exp-top-row">
+          <div class="vol-img-placeholder main-mobile-preview">
+            <img src="images/POSTER RESPONSI PGPBL.png" alt="JogjaSphere App">
+          </div>
+          <div class="exp-content">
+            <div class="exp-org" style="color: var(--tan); margin-bottom: 8px; font-size: 13px;">
+              Mobile Development · Personal Project
+            </div>
+            <h3>JogjaSphere – Tourism Explorer App</h3>
+            <p>
+              Developed a mobile application for exploring and managing tourism destinations in Yogyakarta using React
+              Native and Expo.
+              Integrated interactive maps and Firebase Realtime Database to enable users to browse, add, and manage
+              destinations efficiently.
+            </p>
+            <div class="skills-list" style="margin-top: 15px;">
+              <span class="skill-pill">React Native</span>
+              <span class="skill-pill">Expo</span>
+              <span class="skill-pill">Firebase</span>
+              <span class="skill-pill">Maps Integration</span>
+            </div>
+            <a href="https://github.com/Amelianrn/destinasi" class="proj-link" target="_blank">View Project ↗</a>
+          </div>
+        </div>
+
+        <div class="exp-gallery-wide">
+          <div class="gallery-item">
+            <div class="vol-img-placeholder mobile-shot">
+              <img src="images/Home.jpg" alt="App Screenshot 1">
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder mobile-shot">
+              <img src="images/Formadd.jpg" alt="App Screenshot 2">
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder mobile-shot">
+              <img src="images/List.jpg" alt="App Screenshot 3">
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder mobile-shot">
+              <img src="images/Detail.jpg" alt="App Screenshot 4">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAPPING -->
+    <div id="proj-mapping" class="exp-panel">
+      <div class="exp-card-v2">
+        <div class="exp-content">
+          <div class="exp-org">Environmental Analysis · GIS Project</div>
+          <h3>Environmental & Coastal Analysis Mapping</h3>
+          <p>
+            Multi-temporal spatial analysis for coastal and environmental monitoring,
+            including shoreline change detection, vegetation index analysis,
+            geomorphological coastal mapping, deforestation monitoring,
+            and carbon stock change assessment.
+          </p>
+
+          <div class="skills-list">
+            <span class="skill-pill">Shoreline Change</span>
+            <span class="skill-pill">MVI</span>
+            <span class="skill-pill">Carbon Analysis</span>
+            <span class="skill-pill">ArcGIS Pro</span>
+          </div>
+        </div>
+
+        <div class="exp-gallery-wide">
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/PETA GARIS PANTAI MULTI TEMPORAL.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/MVI.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/delta carbon klasifikasi.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/DEFORESTASI.jpg"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- =============================== -->
+      <!-- 2. HYDROLOGY & WATERSHED -->
+      <!-- =============================== -->
+
+      <div class="exp-card-v2">
+        <div class="exp-content">
+          <div class="exp-org">Hydrology Analysis · GIS Project</div>
+          <h3>Hydrology & Watershed Analysis</h3>
+          <p>
+            Spatial hydrology analysis involving watershed delineation,
+            rainfall intensity interpolation, groundwater flow direction,
+            and regional rainfall distribution for environmental planning
+            and water resource management.
+          </p>
+
+          <div class="skills-list">
+            <span class="skill-pill">Sub DAS</span>
+            <span class="skill-pill">IDW Kriging</span>
+            <span class="skill-pill">Rainfall Analysis</span>
+            <span class="skill-pill">Hydrology GIS</span>
+          </div>
+        </div>
+
+        <div class="exp-gallery-wide">
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/BATAS SUBSUB STANDAR.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/ARAHALIRANAIRTANAH.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/CDR.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/PETA IDW.jpg"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- =============================== -->
+      <!-- 3. DISASTER RISK -->
+      <!-- =============================== -->
+
+      <div class="exp-card-v2">
+        <div class="exp-content">
+          <div class="exp-org">Disaster Mapping · GIS Project</div>
+          <h3>Disaster Risk & Hazard Mapping</h3>
+          <p>
+            Hazard and disaster susceptibility mapping including fire risk,
+            vulnerability assessment, FSI classification,
+            and disaster spatial analysis for mitigation planning.
+          </p>
+
+          <div class="skills-list">
+            <span class="skill-pill">Fire Susceptibility</span>
+            <span class="skill-pill">FSI</span>
+            <span class="skill-pill">Risk Analysis</span>
+          </div>
+        </div>
+
+        <div class="exp-gallery-wide">
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/FSI5KLAS.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/FSIKONTINU.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/KERENTANAN_JABAR__page-0001.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/RISIKO_JABAR_page-0001.jpg"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- =============================== -->
+      <!-- 4. LAND USE -->
+      <!-- =============================== -->
+
+      <div class="exp-card-v2">
+        <div class="exp-content">
+          <div class="exp-org">Land Use Planning · GIS Project</div>
+          <h3>Land Use & Spatial Planning</h3>
+          <p>
+            Land use classification, land function direction planning,
+            raster-vector transformation,
+            and regional land utilization analysis for planning purposes.
+          </p>
+
+          <div class="skills-list">
+            <span class="skill-pill">Land Use</span>
+            <span class="skill-pill">Spatial Planning</span>
+          </div>
+        </div>
+
+        <div class="exp-gallery-wide">
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/PL.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/Peta arahan fungsi pemanfaatan lahan.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/ESTIMASI.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/Tutupan2024.jpg"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- =============================== -->
+      <!-- 5. FACILITIES & INFRASTRUCTURE -->
+      <!-- =============================== -->
+
+      <div class="exp-card-v2">
+        <div class="exp-content">
+          <div class="exp-org">Infrastructure Mapping · GIS Project</div>
+          <h3>Public Facilities & Infrastructure Mapping</h3>
+          <p>
+            Public facility mapping, orientation mapping,
+            administrative area visualization, and infrastructure analysis
+            for regional development and service accessibility planning.
+          </p>
+
+          <div class="skills-list">
+            <span class="skill-pill">Public Facilities</span>
+            <span class="skill-pill">Orientation Map</span>
+            <span class="skill-pill">Administrative Mapping</span>
+            <span class="skill-pill">Regional GIS</span>
+          </div>
+        </div>
+
+        <div class="exp-gallery-wide">
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/PETAAABITUNG_page-0001.jpg"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="vol-img-placeholder"><img src="images/Peta Utilitas Amel.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-name">Amelia Nur'aini</div>
+    </div>
+    <div class="footer-copy">© 2026 Amelia Nur'aini · Geographic Information Systems, Universitas Gadjah Mada</div>
+  </footer>
+
+  <script>
+    function showProjTab(tabId) {
+      document.querySelectorAll('#projects .exp-panel').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('#projects .exp-tab').forEach(t => t.classList.remove('active'));
+
+      document.getElementById('proj-' + tabId).classList.add('active');
+      document.getElementById('tab-btn-' + tabId).classList.add('active');
+    }
+
+    // Highlight active nav on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 80) current = s.id;
+      });
+      navLinks.forEach(a => {
+        a.classList.remove('active');
+        if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
